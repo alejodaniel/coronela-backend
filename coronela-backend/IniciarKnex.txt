@@ -1,0 +1,12 @@
+En la consola dentro de la carpeta coronela-backend:
+1.-knex migrate:rollback    (elimina la base )
+2.- knex migrate:latest      (crea la base)
+3.- knex seed:run
+
+CREAR TABLAS EN UN NUEVO SCHEMA.-
+
+1.- knex migrate:make nombreSchema
+
+CREAR DATOS PARA UNA TABLA.-
+
+1.- knex seed:make ##nombreTabla
